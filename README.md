@@ -3,12 +3,14 @@ This project implements LLM (Large Language Model) workflows for repurposing blo
 * Pipeline Workflow: A sequential workflow that processes tasks one after another.
 * Workflow with Reflexion: A self-correcting workflow that improves the quality of generated content.
 * Agent-Driven Workflow: A dynamic workflow where an LLM agent decides the order of tasks.
+* Workflow Comparison: Evaluates and compares workflow approaches based on quality and execution time.
 
 ## Table of Contents
 1. [Prerequisites](#prerequisites)
 2. [Setup Instructions](#setup-instructions)
 3. [Running the Code](#running-the-code)
 4. [Workflow Details](#workflow-details)
+5. [Comparing Workflow Approaches](#comparing-workflow-approaches)
 
 ## Prerequisites
 Before running the code, ensure you have the following:
@@ -87,3 +89,21 @@ python llm_workflow.py
     * The agent uses tools to extract key points, generate a summary, create social media posts, and create an email newsletter.
 
 * Output: A dictionary containing the final results or an error message if the workflow fails.
+
+## Comparing Workflow Approaches
+To evaluate and compare workflow effectiveness:
+```
+python llm_workflow.py
+```
+#### The comparison includes:
+
+- Quality Score: Measures the effectiveness of each workflow.
+- Execution Time: Benchmarks performance.
+- Best Approach Recommendation: Suggests the optimal workflow for different scenarios.
+
+## Results Displayed
+
+- Overall ranking of workflows.
+- Strengths and weaknesses of each approach.
+- Best workflow for different content types (summary, social media, email).
+
